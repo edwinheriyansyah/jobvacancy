@@ -1,0 +1,29 @@
+@import url('css/bootstrap.css"');
+body {
+    padding: 20px;
+}
+
+
+
+
+
+body
+{
+    background-color: #1b1b1b;ff2c2c
+    padding-top: 40px;
+}
+
+
+.input-group-addon
+{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+.form-control:focus
+{
+    background-color: rgb(175, 238, 238);
+    border-color: rgb(40, 94, 142);
+    color: rgb(0, 0, 0);
+}
+.form-signup input[type="text"],.form-signup input[type="password"] { border: 1px solid rgb(0, 0, 255); }

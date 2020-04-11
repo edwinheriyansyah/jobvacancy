@@ -1,0 +1,72 @@
+/*
+	Plugin Name : oz-scroll-up
+	Created By : Osama Elzero
+	Website : elzero.info
+*/
+
+/* Start For Testing Only */
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:0;
+	margin:0
+}
+
+.notify {
+	position:fixed;
+	top:0;
+	left:45%;
+	width:10%;
+	padding:10px 0;
+	text-align:center;
+	color:#333;
+	background-color:#FFF;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+section {height:1400px;font-size:50px}
+
+section:first-of-type {background:#DDD}
+
+section:nth-of-type(2) {background:#555;color:#FFF}
+
+section:nth-of-type(3) {background:#000;color:#FFF}
+
+section:nth-of-type(4) {background:#FFF}
+
+/* End For Testing Only */
+
+/* Start The Needed Code */
+
+#oz-scroll {
+	position:fixed;
+	bottom:15px;
+	right:-80px;
+	height:48px;
+	width:48px;
+	overflow:hidden;
+	display:none;
+	zoom:1;
+	filter:alpha(opacity=60);
+	opacity:.6;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+
+#oz-scroll img {max-width:100%}
+
+#oz-scroll:hover {opacity:1}
+
+.style1 {background-image:url('images/oz-scroll-up/style1.png')}
+
+.style2 {background-image:url('images/oz-scroll-up/style2.png')}
+
+.style3 {background-image:url('images/oz-scroll-up/style3.png')}
+
+/* End The Needed Code */
